@@ -13,9 +13,9 @@ public class IntToBinaryTest {
     public void shouldReturnBinaryString(){
 
         IntToBinary intB = new IntToBinary();
-        //System.out.println(Integer.parseInt("1110000",2));
-
-        Assert.assertEquals(0,  intB.getMaximalZeroes(112));
+        //System.out.println("Number " + Integer.parseInt("1000110000",2));
+//Assert.assertEquals(0,  intB.getMaximalZeroes(112));
+        Assert.assertEquals(3,  intB.getMaximalZeroes(560));
 
     }
 }
