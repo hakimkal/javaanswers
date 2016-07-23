@@ -5,8 +5,9 @@ package com.ehealth.qone;
  */
 
 
+
 public class IntToBinary {
-   // private final Logger log = LoggerFactory.getLogger(IntToBinary.class);
+  // private final Logger log = LoggerFactory.getLogger(IntToBinary.class);
     int[] bigCounter = {0};
 
     private int countZeroesInArray(char[] subChars) {
@@ -68,7 +69,8 @@ public class IntToBinary {
         String bn = Integer.toString(number, 2);
 
 
-        System.out.println(bn);
+        //System.out.println(bn);
+        System.out.println("The Calculated Binary Number: " + bn);
 
     /* Convert bn to array */
         char[] chars = bn.toCharArray();
