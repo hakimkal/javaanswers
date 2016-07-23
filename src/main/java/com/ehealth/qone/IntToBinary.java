@@ -2,6 +2,15 @@ package com.ehealth.qone;
 
 /**
  * Created by abdulhakim on 7/21/16.
+ *
+ *
+ * This program returns the highest number of consecutive zeros between 1s
+ *
+ * The program takes a decimal number, convert to binary and prints the consecutvie 0s
+ *
+ * e.g 100000011000 should return 6
+ *
+ * 1111000000 will return 0 as the 0s don't exist between 1s.
  */
 
 
